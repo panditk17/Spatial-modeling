@@ -1,8 +1,9 @@
 #******************************************************************
-#Codes to read raster grid with height information, select the pixels 
-#with vegetation, list the heights for selected pixels, produce csv
-#file with vegetation height in one column and type of PFT in another
-#Written by K. Pandit (2017)
+# R codes to create input files for ED2 by reading read raster grid 
+# with height information, select the pixels 
+# with vegetation, list the heights for selected pixels, produce csv
+# file with vegetation height in one column and type of PFT in another
+# Written by K. Pandit (2017)
 #*******************************************************************
 
 #Install required r packages
