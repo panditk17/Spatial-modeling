@@ -1,4 +1,4 @@
-function [ binval, K,L ] = pandit_point_cross_K_function( InMat2, numbin2, R, highest )
+function [ binval, L ] = pandit_point_cross_K_function( InMat2, numbin2, R, highest )
 
 % Cross K Function *****************
 % Coded by Karun Pandit ************
