@@ -1,8 +1,8 @@
 
 % Point cross L test function *****************
 % Coded by Karun Pandit ***********************
-% 10-10-2011 **********************************
-% *********************************************
+% original created on: 10-10-2011 *************
+% modified on: 04-03-2020 *********************
 
 % clear files and load the datasets
 clear all; close all; clc
