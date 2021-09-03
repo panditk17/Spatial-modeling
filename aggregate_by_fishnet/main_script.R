@@ -1,5 +1,5 @@
-# code to identify repeated measurements (trees and plots) using FIA data
-# with fusiform rust from 2013 to 2019 in Southern US
+# code to create fishnet and aggregate points within 
+# each grid cells useful for spatial analysis
 
 setwd("C:/Karuns_documents/pine_disease/survival_fishnet")
 
