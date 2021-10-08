@@ -1,3 +1,4 @@
+# function to read netcdf file
 nc_out <- function(i,j,var) {
   
   library(ncdf4)
