@@ -19,7 +19,7 @@ library(rgdal)
 library(sp)
 library(raster)
 
-# 
+# Create a list of states for the analysis
 # st_list = c("Alabama", "Arkansas","Florida",
 #             "Georgia", "Kentucky", "Louisiana",
 #              "Mississippi", "North Carolina", "Oklahoma", 
