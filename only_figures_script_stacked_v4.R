@@ -1,6 +1,8 @@
 # code to identify repeated measurements (trees and plots) using FIA data
 # with fusiform rust from 2013 to 2019 in Southern US
 
+# read the climate files from the directory
+
 setwd("C:/Karuns_documents/pine_disease/fusiform_hotspots")
 
 rm(list=ls())
@@ -8,11 +10,7 @@ rm(list=ls())
 do.call(file.remove, 
         list(list.files("C:/Karuns_documents/pine_disease/fusiform_hotspots/temp_climate_data", 
                         full.names = TRUE)))
-
-library(dplyr)
-library(reshape)
-library(ggplot2)
-
+# activate libraries required for the analysis
 library(dplyr)
 library(reshape)
 library(ggplot2)
