@@ -20,7 +20,7 @@ proj4string(lob_nat2)=CRS(projlatlon) # set it to lat-long
 lob_nat3 = spTransform(lob_nat2,proj4)
 
 
-
+## identify the projection and change it
 projection(lob_nat3)
 extent(lob_nat3)
 
