@@ -26,6 +26,7 @@ library(raster)
 #             "South Carolina", "Tennessee",
 #             "Texas", "Virginia")
 
+# alternate set of states with all eastern states
 st_list = c("Alabama", "Arkansas", "Connecticut", "Delaware", "Florida",
             "Georgia", "Illinois", "Indiana",
             "Iowa", "Kansas", "Kentucky", "Louisiana",
@@ -47,6 +48,7 @@ states_contemporary <- us_states(states=st_list)
 plot(st_geometry(states_contemporary))
 title("Southeastern US")
 
+## identify the extend and projection of the map
 ext1<-extent(states_contemporary)
 proj1<-crs(states_contemporary)
 
@@ -59,11 +61,12 @@ proj_latlon="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
 
 proj4<-crs(map)
 
+
 point_data=read.csv("data/fia_coord1.csv")  
 
 pixelsize=100000
 
-
+## source codes for creating fishnets
 source("codes/aggregate_fishnet_fn.R")
 
 aggregate_fishnet_fn(point_data,map,pixelsize)
