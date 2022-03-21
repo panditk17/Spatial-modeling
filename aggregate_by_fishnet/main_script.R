@@ -1,7 +1,8 @@
 # code to create fishnet and aggregate points within 
 # each grid cells useful for spatial analysis
+# updated on 03-21-2022 
 
-setwd("C:/Karuns_documents/pine_disease/survival_fishnet")
+# setwd("C:/Karuns_documents/pine_disease/survival_fishnet")
 
 rm(list=ls())
 
