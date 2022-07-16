@@ -3,6 +3,7 @@
 #with vegetation, list the heights for selected pixels, produce csv
 #file with vegetation height in one column and type of PFT in another
 #Written by K. Pandit (2017) modified on (2021)
+## codes developed to integrate LiDAr data for ED allometric equation
 #*******************************************************************
 
 #Install required r packages
