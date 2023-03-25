@@ -1,5 +1,6 @@
 # code to identify repeated measurements (trees and plots) using FIA data
 # with fusiform rust from 2013 to 2019 in Southern US
+# K. Pandit
 
 # read the climate files from the directory
 
