@@ -1,4 +1,5 @@
 # function to create fishnet and aggregate by each grid
+## updated 04-17-2023
 
 aggregate_fishnet_fn<-function(point_data,map,pixelsize) {
 
