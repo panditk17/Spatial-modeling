@@ -4,7 +4,7 @@
 aggregate_fishnet_fn<-function(point_data,map,pixelsize) {
 
 
-# read RCS file with tree data 
+# read RDS file with tree data 
 data<-point_data
   
   # read plot number, longitude and latitude from the data
