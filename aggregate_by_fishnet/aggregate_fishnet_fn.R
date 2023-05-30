@@ -1,6 +1,7 @@
 # function to create fishnet and aggregate by each grid
 ## updated 04-17-2023
 
+
 aggregate_fishnet_fn<-function(point_data,map,pixelsize) {
 
 
@@ -46,6 +47,7 @@ centroid_proj <- as.data.frame(coordinates(fishnet))
 
 centroid_both<-merge(centroid_latlon,centroid_proj, by="row.names")
 
+# get centroid of fishnet grids
 # 
 # centroid_id <- as.data.frame(fishnet_latlon@data$id)
 # 
