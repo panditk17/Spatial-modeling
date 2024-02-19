@@ -1,5 +1,5 @@
 # function to create fishnet and aggregate by each grid
-## updated 04-17-2023
+## updated 02-19-2024
 
 
 aggregate_fishnet_fn<-function(point_data,map,pixelsize) {
@@ -15,6 +15,8 @@ lob_nat2<-lob_nat[c("plot","long","lat")]
 lob_nat2$presence<-1
 coordinates(lob_nat2)<-~long+lat
 
+# set up projection
+
 projlatlon<-"+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
 proj4string(lob_nat2)=CRS(projlatlon) # set it to lat-long
 
@@ -27,6 +29,8 @@ projection(lob_nat3)
 extent(lob_nat3)
 
 ccc<-projection(map)
+
+  # create raster to match the extent of map
 
 fishnet.r <- raster(extent(map))
 res(fishnet.r) <- pixelsize
