@@ -1,3 +1,4 @@
+% codes in matlab to run cross L test
 function [binval,upper,lower,Lhat]= pandit_point_cross_L_test( InMat2, numbin2, numsim, R )
 
 % Point cross L test function *****************
@@ -114,4 +115,5 @@ Lhat = L - av_val;
 
 
 end
+
 
