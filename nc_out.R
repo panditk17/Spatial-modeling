@@ -1,4 +1,4 @@
-# function to read netcdf file
+# function to read netcdf file as for climate inputs in fusiform rust analysis
 # and return the variables desired from the file
 nc_out <- function(i,j,var) {
   
