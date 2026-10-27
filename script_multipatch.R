@@ -1,6 +1,7 @@
 # Codes to read cohort level outputs, patch level outputs and polygon level outputs
 # and calculate polygon level outputs from cohort outputs over time
 # Karun Pandit
+# codes used to run ED2 model at patch level
 
 #setwd("c:/users/karunpandit.BOISESTATE.003/Documents/rms_fire")
 
